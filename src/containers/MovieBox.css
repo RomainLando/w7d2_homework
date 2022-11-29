@@ -1,0 +1,41 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    background-color: rgb(237, 235, 235);
+    margin: 1rem 4rem;
+    padding: 1px 10px;
+    width: fit-content;
+    border: solid black 1.5px;
+    justify-self: center;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+li {
+    line-height: 40px;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(12, 113, 195);
+    padding-left: 10px;
+}
+
+#bottom {
+    margin-bottom: 0;
+}
+
+button {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    height: fit-content;
+    font-size: 3vw;
+    color: rgb(12, 113, 195);
+    background-color: rgb(117, 174, 238);
+    border: solid black 1px;
+}
